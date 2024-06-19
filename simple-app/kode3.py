@@ -4,7 +4,9 @@ from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, r
 from time import sleep
 
 try:
-    kamera = cv2.VideoCapture('/home/user/Project/comvis/video/1xhd30fps.MOV')    true_labels = []
+    kamera = cv2.VideoCapture('/home/user/Project/comvis/video/1xhd30fps.MOV')
+    # kamera = cv2.VideoCapture('video/HD/2x/2xhd30fps.MOV')
+    true_labels = []
     predicted_labels = []
     ukuran_minimal_lebar = 80
     ukuran_minimal_tinggi = 80
